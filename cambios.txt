@@ -1,0 +1,9 @@
+index general, faltan que salgan los ultimos post
+
+en el layout, los botones no tienen enlaces, por lo que noredireccionan a nada
+
+en modelos, he cambiado interface por type
+
+en search.index, he separado la busqueda en busqueda por nombre y busqueda por autor, para luego juntarlo en un mismo array, tambien la funcion principal, necesita pageProps, para recibir datos de handler
+
+en el post/id, tambien hay que añadirle lo de pageProps, corregir funciones de los comentarios, de las peticiones a api y de los likes
